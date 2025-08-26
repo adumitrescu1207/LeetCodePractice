@@ -11,7 +11,7 @@ public:
     int areaOfMaxDiagonal(vector<vector<int>>& dimensions) {
         int n = dimensions.size();
         int m = dimensions[0].size();
-        int area = 0, max_area =0;
+        int area = 0, max_area = 0;
         int diag = 0, max_diag = 0;
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
